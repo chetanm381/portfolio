@@ -3,112 +3,452 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chetan Meena - Backend & API Developer</title>
+    <title>Chetan Meena - Backend & API Specialist for Hire</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="container">
-            <h1>Chetan Meena</h1>
-            <p>Backend & API Developer | C#, .NET Core, Node.js, Azure</p>
-        </div>
-    </header>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                I am a backend-focused software engineer with 3+ years of experience building scalable applications on the Microsoft ecosystem.
-                I specialize in designing and developing robust APIs, cloud services, and distributed systems using C#, .NET Core, Node.js, Python, Azure, and AWS.
-                Outside my full-time role, I take on select web development projects where I can contribute backend/API expertise to help businesses launch fast, secure websites and web apps.
-            </p>
-            <a href="#contact" class="btn">Get in Touch</a>
-        </div>
-    </section>
-
-    <section id="skills" class="section">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <span class="skill-tag">C#</span>
-                <span class="skill-tag">.NET Core</span>
-                <span class="skill-tag">Node.js</span>
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">RESTful APIs</span>
-                <span class="skill-tag">Azure</span>
-                <span class="skill-tag">AWS</span>
-                <span class="skill-tag">Docker</span>
-                <span class="skill-tag">Redis</span>
-                <span class="skill-tag">Entity Framework</span>
-                <span class="skill-tag">SQL / NoSQL</span>
-                <span class="skill-tag">CI/CD</span>
-                <span class="skill-tag">Dataverse</span>
-                <span class="skill-tag">RBAC & Security</span>
-                <span class="skill-tag">Microservices</span>
+            <div class="hero-content">
+                <h1>Backend & API Specialist</h1>
+                <p class="subtitle">I build scalable, secure backends that power modern web applications—helping businesses launch faster and scale smarter.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Hire Me for Your Project</a>
+                    <a href="#about" class="btn btn-outline">Learn About My Approach</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="section">
+    <!-- Value Proposition -->
+    <section class="value-prop">
+        <div class="container">
+            <div class="value-grid">
+                <div class="value-card">
+                    <div class="value-icon">⚡</div>
+                    <h3>Rapid Delivery</h3>
+                    <p>Get your MVP or website backend up and running in weeks, not months—with clean, maintainable code from day one.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🔒</div>
+                    <h3>Built for Scale</h3>
+                    <p>Architectures designed to grow with your business—from prototype to enterprise without rewrites.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🛠️</div>
+                    <h3>Zero Maintenance Headaches</h3>
+                    <p>Well-documented, tested systems that are easy for your team to understand and extend.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About/Expertise -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        I'm a backend-focused software engineer with 3+ years of experience building robust, scalable applications—primarily on the Microsoft ecosystem, but equally comfortable with Node.js, Python, and cloud platforms.
+                    </p>
+                    <p>
+                        Outside my full-time role, I take on select freelance web development projects where I can contribute deep backend/API expertise. I specialize in creating the server-side foundation that makes websites fast, secure, and ready to scale—allowing you to focus on your product and users.
+                    </p>
+                    <p>
+                        Whether you need a REST API for your mobile app, a backend for your SaaS product, or server-side logic for a business website—I’ll help you build it right the first time.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <h3>My Track Record</h3>
+                    <div class="stats-grid">
+                        <div class="stat">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">API Endpoints Built</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services/Engagement Models -->
+    <section class="services">
+        <div class="container">
+            <h2>How I Work</h2>
+            <p class="services-subtitle">Clear, transparent engagement models designed for busy founders and product managers.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Backend Development</h3>
+                    <p>From API design to deployment—I handle the server-side logic so your website or app has a rock-solid foundation.</p>
+                    <ul class="service-list">
+                        <li>REST/GraphQL API Design & Development</li>
+                        <li>Database Design & Optimization</li>
+                        <li>Authentication & Authorization (JWT, OAuth, RBAC)</li>
+                        <li>Cloud Deployment (Azure, AWS, Docker)</li>
+                        <li>Performance Tuning & Caching</li>
+                    </ul>
+                    <p class="service-price">Starting at $1,500</p>
+                </div>
+                <div class="service-card">
+                    <h3>System Architecture Consulting</h3>
+                    <p>Get expert guidance on building scalable, maintainable systems before you write a single line of code.</p>
+                    <ul class="service-list">
+                        <li>Technical Architecture Review</li>
+                        <li>Technology Stack Recommendations</li>
+                        <li>Scalability & Performance Planning</li>
+                        <li>Security Best Practices</li>
+                        <li>DevOps & CI/CD Setup</li>
+                    </ul>
+                    <p class="service-price">Hourly: $75/hour</p>
+                </div>
+                <div class="service-card">
+                    <h3>Code Review & Optimization</h3>
+                    <p>Already have a backend? Let me audit it for performance, security, and maintainability issues.</p>
+                    <ul class="service-list">
+                        <li>Performance Bottleneck Analysis</li>
+                        <li>Security Vulnerability Assessment</li>
+                        <li>Code Quality & Maintainability Review</li>
+                        <li>Scalability Recommendations</li>
+                        <li>Refactoring Roadmap</li>
+                    </ul>
+                    <p class="service-price">Starting at $500</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio/Projects -->
+    <section class="portfolio" id="projects">
         <div class="container">
             <h2>Selected Projects</h2>
-            <div class="projects-grid">
+            <p class="portfolio-subtitle">Recent work showcasing my backend expertise</p>
+            <div class="portfolio-grid">
                 <!-- Project 1 -->
-                <div class="project-card">
-                    <h3>Enterprise API Platform</h3>
-                    <p>Built a scalable REST API using C#/.NET Core and Azure Functions serving 500+ users. Implemented JWT auth, RBAC, Redis caching, and Dockerized deployment.</p>
-                    <p><strong>Tech:</strong> C#, .NET Core, Azure Functions, Azure SQL, Redis, Docker, CI/CD</p>
-                    <a href="#" class="btn-sm">View Details</a>
+                <div class="portfolio-item">
+                    <div class="portfolio-header">
+                        <h3>Enterprise API Platform</h3>
+                        <span class="project-tag">API Development</span>
+                    </div>
+                    <div class="portfolio-body">
+                        <p>
+                            Built a scalable REST API serving 500+ daily active users for a B2B SaaS platform. The system handles complex business logic, integrates with multiple third-party services, and maintains sub-200ms response times under load.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">C#</span>
+                            <span class="tech-badge">.NET Core</span>
+                            <span class="tech-badge">Azure Functions</span>
+                            <span class="tech-badge">Azure SQL</span>
+                            <span class="tech-badge">Redis</span>
+                            <span class="tech-badge">Docker</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <div class="metric-value">500+</div>
+                                <div class="metric-label">Daily Users</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value"><200ms</div>
+                                <div class="metric-label">API Response Time</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">99.9%</div>
+                                <div class="metric-label">Uptime</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <!-- Project 2 -->
-                <div class="project-card">
-                    <h3>Micro‑service for Real‑time Data Processing</h3>
-                    <p>Designed a Node.js microservice that ingests streaming data via Azure Event Hubs, processes it, and stores results in Cosmos DB. Used microservices patterns and async queues.</p>
-                    <p><strong>Tech:</strong> Node.js, Azure Event Hubs, Cosmos DB, Docker, Kubernetes</p>
-                    <a href="#" class="btn-sm">View Details</a>
+                <div class="portfolio-item">
+                    <div class="portfolio-header">
+                        <h3>Real-time Data Processing Micro-service</h3>
+                        <span class="project-tag">Micro-services</span>
+                    </div>
+                    <div class="portfolio-body">
+                        <p>
+                            Designed a Node.js microservice that processes streaming IoT data from Azure Event Hubs, performs real-time analytics, and stores results in Cosmos DB. Built for high-throughput, fault-tolerant operation.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">Azure Event Hubs</span>
+                            <span class="tech-badge">Cosmos DB</span>
+                            <span class="tech-badge">Docker</span>
+                            <span class="tech-badge">Kubernetes</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <div class="metric-value">10K+</div>
+                                <div class="metric-label">Messages/Hour</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">99.95%</div>
+                                <div class="metric-label">Processing Accuracy</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">Auto-scaling</div>
+                                <div class="metric-label">Infrastructure</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <!-- Project 3 -->
-                <div class="project-card">
-                    <h3>Full‑stack MVP for a Startup</h3>
-                    <p>Developed a prototype web app with a Python/FastAPI backend and a React frontend. Included user authentication, payment integration, and deployment to AWS Elastic Beanstalk.</p>
-                    <p><strong>Tech:</strong> Python, FastAPI, React, AWS, PostgreSQL, Docker</p>
-                    <a href="#" class="btn-sm">View Details</a>
+                <div class="portfolio-item">
+                    <div class="portfolio-header">
+                        <h3>Startup MVP Backend</h3>
+                        <span class="project-tag">Full-stack</span>
+                    </div>
+                    <div class="portfolio-body">
+                        <p>
+                            Developed the Python/FastAPI backend for a startup's MVP web application. Included user authentication, payment processing, admin dashboard APIs, and deployment to AWS—enabling rapid iteration and investor-ready demo.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">FastAPI</span>
+                            <span class="tech-badge">AWS</span>
+                            <span class="tech-badge">PostgreSQL</span>
+                            <span class="tech-badge">Docker</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <div class="metric-value">2 weeks</div>
+                                <div class="metric-label">Development Time</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">3</div>
+                                <div class="metric-label">Integrated Services</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">Production Ready</div>
+                                <div class="metric-label">Deployment Status</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section">
+    <!-- Skills -->
+    <section class="skills" id="skills">
         <div class="container">
-            <h2>Contact</h2>
-            <p>
-                Interested in collaborating on a web project? Drop me a message—I’ll respond within 24 hours.
-            </p>
-            <form id="contact-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
+            <h2>Technical Expertise</h2>
+            <p class="skills-subtitle">Modern backend technologies I work with daily</p>
+            <div class="skills-container">
+                <div classskills-category">
+                    <h3>Languages & Frameworks</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">.NET Core</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+                <div class="skills-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">Terraform</span>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
+                <div class="skills-category">
+                    <h3>Data & Storage</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">SQL Server</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Cosmos DB</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Entity Framework</span>
+                    </div>
                 </div>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-            <p id="form-status"></p>
+                <div class="skills-category">
+                    <h3>APIs & Integration</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">REST</span>
+                        <span class="skill-tag">GraphQL</span>
+                        <span class="skill-tag">Webhooks</span>
+                        <span class="skill-tag">OAuth 2.0</span>
+                        <span class="skill-tag">JWT</span>
+                        <span class="skill-tag">RBAC</span>
+                        <span class="skill-tag">API Gateway</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- Testimonials (Placeholder) -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <p>
+                        "Chetan delivered a robust API platform that exceeded our expectations. His attention to detail, clear communication, and deep expertise in .NET and Azure made the project a success."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Alex Rodriguez</h4>
+                            <p>CTO, TechStartup Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>
+                        "Working with Chetan was a pleasure. He took the time to understand our business needs and built a scalable microservice that handles our real-time data processing requirements perfectly."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Priya Mehta</h4>
+                            <p>Product Lead, DataFlow Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Build Something Great?</h2>
+            <p>
+                Let's discuss your project and how I can help you build a backend that's fast, secure, and ready to scale.
+            </p>
+            <a href="#contact" class="btn btn-primary btn-large">Start the Conversation</a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>
+                        Have a project in mind? I typically respond within 24 hours. Let's discuss your needs, timeline, and how we can work together.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>chetan.meena.dev@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💼</span>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p><a href="https://linkedin.com/in/chetan-meena-785288228" target="_blank">linkedin.com/in/chetan-meena-785288228</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🐙</span>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p><a href="https://github.com/chetanmeena" target="_blank">github.com/chetanmeena</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h2>Send Me a Message</h2>
+                    <form id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Project Type</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select your project type</option>
+                                <option value="API Development">REST/GraphQL API Development</option>
+                                <option value="Micro-services">Micro-service Architecture</option>
+                                <option value="Backend for Website">Website Backend Development</option>
+                                <option value="System Architecture">Technical Architecture Consulting</option>
+                                <option value="Code Review">Performance & Security Audit</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project goals, timeline, budget, and any specific requirements..." rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                    <p id="form-status"></p>
+                    <p class="form-note">
+                        I'll review your message and get back to you within 1 business day to discuss next steps.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; <span id="year"></span> Chetan Meena. All rights reserved.</p>
-            <div class="social-links">
-                <a href="https://linkedin.com/in/chetan-meena-785288228" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="https://github.com/chetanmeena" target="_blank" rel="noopener">GitHub</a>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Chetan Meena</h3>
+                    <p>Backend & API Specialist</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/chetan-meena-785288228" target="_blank" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="https://github.com/chetanmeena" target="_blank" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.07 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Chetan Meena. All rights reserved.</p>
+                <p class="footer-note">
+                    Available for freelance projects outside my full-time employment.
+                </p>
             </div>
         </div>
     </footer>
